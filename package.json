@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "dev:mock": "cross-env USE_MOCK=true vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "build:report": "cross-env REPORT=true tsc && vite build",
     "build:mock": "cross-env USE_CHUNK_MOCK=true tsc && vite build",
