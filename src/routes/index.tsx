@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from 'react';
 import routes from './routesConfig';
 import { Route, Routes, useNavigate, Navigate } from 'react-router-dom';
-import { ErrorBlock } from 'antd-mobile'
+import { ErrorBlock } from 'antd-mobile';
 import { IRoute } from '@/types/router';
 import { isLogin } from '@/utils/userLogin';
 
